@@ -1,0 +1,13 @@
+---
+classes:
+  - locales
+  - ntp
+
+locales::default_locale: en_US.UTF-8
+locales::locales:
+  - en_US.UTF-8 UTF-8
+
+ntp::servers:
+  - 0.nl.pool.ntp.org iburst
+  - 1.nl.pool.ntp.org iburst
+  - 2.nl.pool.ntp.org iburst
