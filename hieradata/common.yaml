@@ -2,6 +2,10 @@
 classes:
   - locales
   - ntp
+  - timezone
+  
+timezone::region: 'Europe'
+timezone::locality: 'Amsterdam'
 
 locales::default_locale: en_US.UTF-8
 locales::locales:
