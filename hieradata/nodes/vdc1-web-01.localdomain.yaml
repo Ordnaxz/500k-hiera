@@ -1,0 +1,7 @@
+---
+classes:
+   - profiles::lamp_apache
+
+profiles::lamp_apache::apache_port: 80
+profiles::lamp_apache::apache_docroot: "/var/www/vhostweb01"
+

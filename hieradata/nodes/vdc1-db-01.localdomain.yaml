@@ -1,0 +1,5 @@
+---
+classes:
+   - profiles::mysql
+
+profiles::mysql::mysql_root_password: 'someotherpassword'
