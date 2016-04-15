@@ -7,7 +7,7 @@ profiles::mysql::databases:
   wordpress:
     user: 'wordpress'
     password: '*C260A4F79FA905AF65142FFE0B9A14FE0E1519CC'
-    host: 'localhost'
+    host: '%'
     grant:
       - SELECT
       - UPDATE
@@ -16,7 +16,7 @@ profiles::mysql::databases:
   test:
     user: 'wordpresstest'
     password: '*C260A4F79FA905AF65142FFE0B9A14FE0E1519CC'
-    host: 'localhost'
+    host: '%'
     grant:
       - SELECT
       - UPDATE
