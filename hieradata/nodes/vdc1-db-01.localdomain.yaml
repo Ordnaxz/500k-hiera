@@ -3,3 +3,18 @@ classes:
    - profiles::mysql
 
 profiles::mysql::mysql_root_password: 'someotherpassword'
+profiles::mysql::databases: 
+  wordpress:
+    user: 'wordpress'
+    password: '*C260A4F79FA905AF65142FFE0B9A14FE0E1519CC'
+    host: 'localhost'
+    grant:
+      - SELECT
+      - UPDATE
+  test:
+    user: 'wordpresstest'
+    password: '*C260A4F79FA905AF65142FFE0B9A14FE0E1519CC'
+    host: 'localhost'
+    grant:
+      - SELECT
+      - UPDATE
